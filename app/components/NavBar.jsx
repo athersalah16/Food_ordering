@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 import Icons from "./Icons";
 import Logo from "./Logo";
-import { useState } from "react";
+import useNAvBarContex from "../contex/useContex";
 function NavBar() {
-  const [route, setRoute] = useState("Home");
+  const { route, setRoute } = useNAvBarContex();
   const links = [
     { id: 1, name: "Home", href: "/" },
     { id: 2, name: "Menu", href: "/menu" },
