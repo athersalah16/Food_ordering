@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import useNAvBarContex from "@/app/contex/useContex";
+import {useNAvBarContex} from "@/app/contex/useContex";
 function Section1() {
     const { setRoute } =  useNAvBarContex();
     const handleClick = () => {

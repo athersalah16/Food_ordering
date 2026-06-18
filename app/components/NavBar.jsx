@@ -3,8 +3,9 @@ import Link from "next/link";
 import React from "react";
 import Icons from "./Icons";
 import Logo from "./Logo";
-import useNAvBarContex from "../contex/useContex";
+import {useNAvBarContex} from "../contex/useContex";
 function NavBar() {
+   
   const { route, setRoute } = useNAvBarContex();
   const links = [
     { id: 1, name: "Home", href: "/" },
@@ -14,7 +15,7 @@ function NavBar() {
   return (
     <div className="w-full flex justify-between border-b border-b-orange-400 p-4">
       <div className="flex items-center gap-2">
-        <Logo color="black" />
+        <Logo  />
       </div>
       <div className="flex items-center gap-6">
         {links.map((link) => (

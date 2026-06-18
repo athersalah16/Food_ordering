@@ -14,6 +14,7 @@ const menu = [
   {
     id: 2,
     category: "burger",
+  
     name: "BBQ Bacon Burger",
     price: 14.99,
     image: "https://images.unsplash.com/photo-1553979459-d2229ba7433b",
@@ -26,6 +27,7 @@ const menu = [
   {
     id: 3,
     category: "burger",
+  
     name: "Mushroom Swiss Burger",
     price: 13.99,
     image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add",
@@ -38,6 +40,7 @@ const menu = [
   {
     id: 4,
     category: "pizza",
+    
     name: "Margherita Pizza",
     price: 13.99,
     image: "https://images.unsplash.com/photo-1604382355076-af4b0eb60143",
@@ -50,6 +53,7 @@ const menu = [
   {
     id: 5,
     category: "pizza",
+    
     name: "Pepperoni Pizza",
     price: 15.99,
     image: "https://images.unsplash.com/photo-1628840042765-356cda07504e",
@@ -62,6 +66,7 @@ const menu = [
   {
     id: 6,
     category: "pizza",
+    
     name: "Chicken Ranch Pizza",
     price: 16.99,
     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
@@ -110,10 +115,11 @@ const menu = [
   {
     id: 10,
     category: "juice",
+    
     name: "Mango Juice",
     price: 4.99,
     image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4",
-    rating: 4.6,
+    rating: 3.5,
     reviews: 157,
     description: "Fresh mango juice with natural sweetness.",
     ingredients: ["Mango", "Water", "Ice"],
@@ -122,6 +128,7 @@ const menu = [
   {
     id: 11,
     category: "juice",
+    
     name: "Orange Juice",
     price: 3.99,
     image: "https://images.unsplash.com/photo-1613478223719-2ab802602423",
@@ -134,6 +141,7 @@ const menu = [
   {
     id: 12,
     category: "juice",
+    
     name: "Strawberry Juice",
     price: 4.99,
     image: "https://images.unsplash.com/photo-1553530666-ba11a90bb918",
@@ -146,6 +154,7 @@ const menu = [
   {
     id: 13,
     category: "salad",
+
     name: "Caesar Salad",
     price: 10.99,
     image: "https://images.unsplash.com/photo-1546793665-c74683f339c1",
@@ -158,10 +167,11 @@ const menu = [
   {
     id: 14,
     category: "salad",
+
     name: "Greek Salad",
     price: 10.99,
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
-    rating: 4.6,
+    rating: 3.2,
     reviews: 178,
     description: "Mediterranean salad with feta cheese and olives.",
     ingredients: ["Tomato", "Cucumber", "Feta Cheese", "Olives"],
@@ -170,6 +180,7 @@ const menu = [
   {
     id: 15,
     category: "salad",
+
     name: "Chicken Avocado Salad",
     price: 13.99,
     image: "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
@@ -182,6 +193,7 @@ const menu = [
   {
     id: 16,
     category: "dessert",
+    
     name: "Chocolate Lava Cake",
     price: 8.99,
     image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
@@ -194,6 +206,7 @@ const menu = [
   {
     id: 17,
     category: "dessert",
+    
     name: "New York Cheesecake",
     price: 7.99,
     image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad",
@@ -206,6 +219,7 @@ const menu = [
   {
     id: 18,
     category: "dessert",
+    
     name: "Tiramisu",
     price: 8.99,
     image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
