@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import NavBarProvider from "./contex/NavBarCont";
 import MenuContexProvider from "./contex/MenuContex";
 import CartContexProvider from "./contex/CartContex";
+import OrderContexProvider from "./contex/OrderContex";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -26,14 +27,17 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <MenuContexProvider>
-          <CartContexProvider>
-            <NavBarProvider>
-              <NavBar />
-              {children}
-            </NavBarProvider>
-          </CartContexProvider>
-        </MenuContexProvider>
+        <OrderContexProvider>
+          {" "}
+          <MenuContexProvider>
+            <CartContexProvider>
+              <NavBarProvider>
+                <NavBar />
+                {children}
+              </NavBarProvider>
+            </CartContexProvider>
+          </MenuContexProvider>
+        </OrderContexProvider>
       </body>
     </html>
   );

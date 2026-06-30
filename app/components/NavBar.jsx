@@ -10,7 +10,6 @@ function NavBar() {
   const links = [
     { id: 1, name: "Home", href: "/" },
     { id: 2, name: "Menu", href: "/menu" },
-    { id: 3, name: "Orders", href: "/orders" },
   ];
   return (
     <div className="w-full flex justify-between border-b border-b-orange-400 p-4">

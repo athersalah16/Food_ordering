@@ -11,7 +11,7 @@ function page() {
   const { cartID } = useCartContex();
   return (
     <div className="min-h-screen">
-      {cartID?.length === 0 ? (
+      {Object.keys(cartID)?.length === 0 ? (
         <div className="w-full  flex justify-center items-center flex-col gap-4">
           <Image
             src={"/cart.png"}
