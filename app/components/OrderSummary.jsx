@@ -20,6 +20,7 @@ function OrderSummary({ checkout = false }) {
         setError("Please fill in all required fields.")
         return false;
       }
+      window.alert("The Payment is Successfully ✅✅")
       setCartID({})
       deleteCart()
       window.location.assign("/");
